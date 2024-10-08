@@ -1,6 +1,6 @@
 from django.db import models
-from autores.models import Autor
-from posts.models import Post
+from ..autores.models import Autor
+from ..posts.models import Post
 
 # Create your models here.
 class Comentario(models.Model):

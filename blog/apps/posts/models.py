@@ -1,6 +1,6 @@
 from django.db import models
-from categorias.models import Categoria
-from autores.models import Autor
+from ..autores.models import Autor
+from ..categorias.models import Categoria
 
 # Create your models here.
 class Post(models.Model):
