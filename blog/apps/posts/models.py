@@ -14,4 +14,7 @@ class Post(models.Model):
     autor = models.ForeignKey(Autor, on_delete=models.CASCADE)
     categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return self.titulo
+
     
