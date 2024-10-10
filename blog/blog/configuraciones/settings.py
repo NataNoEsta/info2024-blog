@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'apps.comentarios',
     'apps.posts',
     'apps.autores',
-    'ckeditor'
+    'ckeditor',
+    'bootstrap5',
 ]
 
 MIDDLEWARE = [
