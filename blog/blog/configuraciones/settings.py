@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'apps.comentarios',
     'apps.posts',
     'apps.autores',
+    'ckeditor'
 ]
 
 MIDDLEWARE = [
@@ -103,6 +104,13 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+#configuracion del ckeditor
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',
+    },
+}
 
 
 # Internationalization
