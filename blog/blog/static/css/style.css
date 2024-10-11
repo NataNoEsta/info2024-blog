@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.masthead{
+    background-image: url("https://i.ibb.co/mTQqR1f/banner-2-ciber.png");
+    width: 100% !important;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    min-height: 24rem !important;
+    position: relative !important;
+}
