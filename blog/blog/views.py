@@ -4,4 +4,7 @@ def index(request):
     return render(request, 'base.html')
 
 def contacto(request):
-    return render(request, 'contacto.html')
+    return render(request, 'contact.html')
+
+def about(request):
+    return render(request, 'about.html')
