@@ -5,4 +5,4 @@ class AutorAdmin(admin.ModelAdmin):
     search_fields = ['nombres']
     list_display = ('nombres', 'apellidos', 'estado', 'fecha_creacion')
 
-admin.site.register(Autor, AutorAdmin)
+admin.site.register(Autor)

@@ -7,6 +7,3 @@ from .models import Post
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
     list_display = ("id", "titulo", "contenido")
-
-admin.site.register(Autor)
-# admin.site.register(Categoria)
